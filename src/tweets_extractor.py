@@ -7,7 +7,7 @@ import tweepy
 from models.tweet import Tweet
 
 config = configparser.ConfigParser()
-config.read('../config.ini')
+config.read('config.ini')
 
 
 def extract(query, mode='strict', max_tweets=5000):

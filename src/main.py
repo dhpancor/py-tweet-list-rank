@@ -6,7 +6,7 @@ from pymongo import MongoClient
 import ui
 
 config = configparser.ConfigParser()
-config.read('../config.ini')
+config.read('config.ini')
 
 
 def main():
