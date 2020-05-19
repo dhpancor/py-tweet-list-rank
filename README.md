@@ -13,8 +13,8 @@ pip install -r requirements.txt
 ## Usage
 1. Rename `config.ini.example` to `config.ini`.
 2. Set your credentials. You can avoid The Movie Database API key if you won't use an extraction mode.
-
-## Extraction models
+3. Run it with `python src/main.py`.
+## Extraction modes
 ### Movies and shows only
 * Strict mode: Only include each preference if there is only one result from The Movie Database. Otherwise omits it. (The most accurate)
 * Order by popularity: Only include the first result ordered by popularity.
