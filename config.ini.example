@@ -1,0 +1,13 @@
+[MONGODB]
+Host = mongodb://localhost
+Port = 27017
+Username = root
+Password = example
+Authentication_Source = admin
+
+[TWITTER]
+Auth_Public_Key = PUBLIC_KEY
+Auth_Secret_Key = SECRET_KEY
+
+[TMDB]
+Secret_Key = API_KEY
